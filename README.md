@@ -2,7 +2,7 @@
 
 - To use this app clone/download the repo.
 - Open the project within Terminal and run `npm install` command
-- After intall project dependencies, now you can use terminal to use the app
+- After installing project dependencies, You can now use terminal to interact with the app.
 
 ## Usage:
 
