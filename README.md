@@ -10,9 +10,9 @@ Use `node app` command following by below commands to interact.
 
 **Example** `node app add --title="My First Note" --body="First note body"`
 
-| Command  |    Param (required) |         Description |
-| -------- | ------------------: | ------------------: |
-| `add`    | `--title`, `--body` |       Adding a note |
-| `read`   |           `--title` | Reading a note body |
-| `remove` |           `--title` |     Removing a note |
-| `list`   |                  NA |   Listing all notes |
+| Command  |    Param (required) |       Description |
+| -------- | ------------------: | ----------------: |
+| `add`    | `--title`, `--body` |     Adding a note |
+| `read`   |           `--title` |    Reading a note |
+| `remove` |           `--title` |   Removing a note |
+| `list`   |                  NA | Listing all notes |
