@@ -8,7 +8,7 @@
 
 Use `node app` command following by below commands to interact.
 
-`Ex: node app add --title="My First Note" --body="This is first note body"`
+**Example** `node app add --title="My First Note" --body="First note body"`
 
 | Command  |    Param (required) |         Description |
 | -------- | ------------------: | ------------------: |
