@@ -5,9 +5,7 @@ const chalk = require("chalk");
 const addNote = (title, body) => {
   const notes = loadNotes();
 
-  const duplicatedNotes = notes.filter(note => {
-    return note.title === title;
-  });
+  const duplicatedNotes = notes.filter(note => note.title === title);
 
   // if there is no matching title
   if (duplicatedNotes.length === 0) {
@@ -28,9 +26,7 @@ const addNote = (title, body) => {
 const removeNote = title => {
   const notes = loadNotes();
 
-  const notesToKeep = notes.filter(note => {
-    return note.title !== title;
-  });
+  const notesToKeep = notes.filter(note => note.title !== title);
 
   // If any match found then udpate data
   if (notes.length > notesToKeep.length) {

@@ -1,7 +1,7 @@
 {
   "name": "note-app",
   "version": "1.0.0",
-  "description": "This app will use the I/O and terminal to ADD, REMOVE, LIST and notes using filesystem and storing data to .json files.",
+  "description": "This app will use the I/O and terminal to ADD, REMOVE, LIST and READ notes using filesystem to storing data to JSON files.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
