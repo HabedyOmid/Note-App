@@ -1,0 +1,25 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "This app will use the I/O and terminal to ADD, REMOVE, LIST and notes using filesystem and storing data to .json files.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HabedyOmid/Node-Tutorial.git"
+  },
+  "author": "Omid Habedy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HabedyOmid/Node-Tutorial/issues"
+  },
+  "homepage": "https://github.com/HabedyOmid/Node-Tutorial#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "validator": "^13.0.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {}
+}
