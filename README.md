@@ -2,14 +2,15 @@
 
 - To use this app clone/download the repo.
 - Open the project within Terminal and run `npm install` command
-
-* after intall project dependencies, now you can use terminal to use the app
+- After intall project dependencies, now you can use terminal to use the app
 
 ## Usage:
 
 Use `node app` command following by below commands to interact.
 
-| Command  |               Param |         Description |
+`Ex: node app add --title="My First Note" --body="This is first note body"`
+
+| Command  |    Param (required) |         Description |
 | -------- | ------------------: | ------------------: |
 | `add`    | `--title`, `--body` |       Adding a note |
 | `read`   |           `--title` | Reading a note body |
